@@ -14,35 +14,9 @@ Se o primeiro parâmetro for MAIOR que o segundo parâmetro, você deverá lanç
 Crie o projeto DesafioControleFluxo
 Dentro do projeto, crie a classe Contador.java para realizar toda a codificação do nosso programa.
 Dentro do projeto, crie a classe ParametrosInvalidosException que representará a exceção de negócio no sistema.
-Abaixo temos um trecho de código no qual você poderá seguir alterando as partes que contenham ??
-
-public class Contador {
-public static void main(String[] args) {
-Scanner terminal = new Scanner(System.in);
-System.out.println("Digite o primeiro parâmetro");
-int parametroUm = terminal.??;
-System.out.println("Digite o segundo parâmetro");
-int parametroDois = terminal.??;
-try {
-//chamando o método contendo a lógica de contagem
-contar(parametroUm, parametroDois);
-}catch (? exception) {
-//imprimir a mensagem: O segundo parâmetro deve ser maior que o primeiro
-}
-}
-static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
-//validar se parametroUm é MAIOR que parametroDois e lançar a exceção
-int contagem = parametroDois - parametroUm;
-//realizar o for para imprimir os números com base na variável contagem
-}
-}
 
 **Linguagens utilizadas:**
 
 - <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
 
-- <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
 
-**Social:**
-
-<img src="https://github.com/digitalinnovationone/trilha-java-basico" />
